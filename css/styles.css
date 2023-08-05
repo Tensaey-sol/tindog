@@ -1,0 +1,171 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section {
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+/* Download-Links */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Image */
+
+.image {
+    width: 60%;
+    transform: rotate(25deg);
+    max-width: fit-content;
+    max-height: 90%;
+    position: absolute;
+    right: 23%;
+}
+
+/* Features Section */
+
+#features {
+    position: relative;
+    margin: 0;
+}
+.features-title {
+    font-size: 1.5rem;
+}
+.features-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing-Section */
+
+#pricing {
+    padding: 100px;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.footer-icons {
+    margin: 20px 10px;
+}
+
+@media (max-width: 992px) {
+
+    #title{
+        text-align: center;
+    }
+    .image {
+        position: static;
+        transform: rotate(0);
+    }
+    .my-toggler {
+        text-align: right;
+    }
+    .testimonial-text {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+    .section-heading {
+        font-size: 2.7rem;
+        line-height: 1.2;
+    }
+
+}
